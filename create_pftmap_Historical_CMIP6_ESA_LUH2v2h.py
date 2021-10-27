@@ -1,6 +1,14 @@
 #/usr/bin/env python
+# Important info:
+# This script is for global (can be adopted to specific region of interest). No support provided.
+# Requires a PFT map from EuropeanSpace Agecny land cover map (ESA-CCI) or any other Observed land cover map
+# Uses land use land cover map from https://luh.umd.edu/ for the historical recontruction of the land use land cover map
+# LUH --> Land Use Harmonization
+# This script can also be usef for future scenario (RCP's) construction of land use land cover map
+# This script is specifically written for ORCHIDEE land surface model. Can be adopted to other land surface models. 
+
 #*****************************************************************************************************************************
-#Program to construct PFT map from 2010 to 850 for ORCHIDEE forcing (CMIP6 runs) using Hurtt's data set
+#Program to construct PFT map from 2010 to 850 for ORCHIDEE forcing (CMIP6 runs) by making use of LUH and ESA-CCI dataset
 #*****************************************************************************************************************************
 #Note, we consider rangeland as natural vegetation
 #import modules
