@@ -6,7 +6,7 @@
 # LUH --> Land Use Harmonization
 # This script can also be usef for future scenario (RCP's) construction of land use land cover map
 # This script is specifically written for ORCHIDEE land surface model. Can be adopted to other land surface models. 
-
+# To run this python code you need to install climate data analysis tool based on python (https://cdat.llnl.gov/documentation/utilities/utilities.html)
 #*****************************************************************************************************************************
 #Program to construct PFT map from 2010 to 850 for ORCHIDEE forcing (CMIP6 runs) by making use of LUH and ESA-CCI dataset
 #*****************************************************************************************************************************
