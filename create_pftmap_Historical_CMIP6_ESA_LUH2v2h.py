@@ -73,8 +73,11 @@ print '>>>>>>>>>>>>> Number of years pft map to be created now <<<<<<<<<<<<<<<',
 #*************************************************************************************************
 # Input / Output files directory
 
+# Attention change the directory paths to locate the ESA-CCI and LUH data netcdf files
+#ESA-CCI dataset location directory
 esa_pft_dir = '/home/basc/dnarayan/LandUsemap_ORCHIDEE/Natasha/ctl2_13July2016/'
 
+#LUH dataset location directory
 hurt_states_dir = '/home/basc/dnarayan/LandUsemap_ORCHIDEE/LUH2v2h/'
 
 output_dir = '/home/basc/dnarayan/LandUsemap_ORCHIDEE/Program_LUmap_Dev/Program_Final_ESA_LUH2v2h/'
